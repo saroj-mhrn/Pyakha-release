@@ -28,7 +28,7 @@ git push
 ## Publish an app update
 
 A Git push saves these files but does not create a GitHub Release. In this repository's
-Releases section, create a release tagged `v<versionName>` (currently `v2.0.53`), attach both
+Releases section, create a release tagged `v<versionName>` (currently `v2.0.54`), attach both
 `Pyakhah-release.apk` and `update.json`, and publish it as the latest stable release.
 
 The app checks:

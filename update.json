@@ -1,10 +1,10 @@
 {
   "packageName": "app.livetv.android",
-  "versionCode": 54,
-  "versionName": "2.0.53",
+  "versionCode": 55,
+  "versionName": "2.0.54",
   "minSdk": 24,
   "size": 8948284,
-  "sha256": "d34e2b493c62c76643544c05dfdac6a5007990fe628b141f3321b091382312ab",
-  "apkUrl": "https://github.com/saroj-mhrn/Pyakha-release/releases/download/v2.0.53/Pyakhah-release.apk",
-  "notes": "Add device activation for Android phones and TVs. Each installation needs approval at https://pyakha.saroz.com.np/admin/ before playback.\nApproved devices can keep working for up to 24 hours if the approval service is unreachable. App updates preserve approval.\nKeep the mobile playback controls and NETTV session-selection fixes."
+  "sha256": "7ef75dc56d2e06566e40c5a05b4f4060304d66eec1ff8c47633d236d5cec1d96",
+  "apkUrl": "https://github.com/saroj-mhrn/Pyakha-release/releases/download/v2.0.54/Pyakhah-release.apk",
+  "notes": "Add device approval for Android phones and TVs. Open the app and approve its activation code at https://pyakha.saroz.com.np/admin/.\n\nApproved devices can work offline for up to 24 hours after their last successful approval check. Updates preserve device approval, saved settings and sign-ins.\n\nIncludes the mobile player controls and NETTV session-selection fixes, plus an activation screen fitted for TV remotes and 720p displays."
 }
