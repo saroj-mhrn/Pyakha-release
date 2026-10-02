@@ -1,10 +1,10 @@
 {
   "packageName": "app.livetv.android",
-  "versionCode": 55,
-  "versionName": "2.0.54",
+  "versionCode": 57,
+  "versionName": "2.0.56",
   "minSdk": 24,
-  "size": 8948284,
-  "sha256": "7ef75dc56d2e06566e40c5a05b4f4060304d66eec1ff8c47633d236d5cec1d96",
-  "apkUrl": "https://github.com/saroj-mhrn/Pyakha-release/releases/download/v2.0.54/Pyakhah-release.apk",
-  "notes": "Add device approval for Android phones and TVs. Open the app and approve its activation code at https://pyakha.saroz.com.np/admin/.\n\nApproved devices can work offline for up to 24 hours after their last successful approval check. Updates preserve device approval, saved settings and sign-ins.\n\nIncludes the mobile player controls and NETTV session-selection fixes, plus an activation screen fitted for TV remotes and 720p displays."
+  "size": 8948448,
+  "sha256": "e778fce99fda63fb1a5a33ebebd5adb566a6b3b0f2eee06062240f35e8491f12",
+  "apkUrl": "https://github.com/saroj-mhrn/Pyakha-release/releases/download/v2.0.56/Pyakhah-release.apk",
+  "notes": "Device approval for Android phones and TVs. Approve activation codes at https://pyakha.saroz.com.np/admin/.\n\nFix APK signature verification on older Android versions. If an older build reports a signature mismatch, install this APK once directly; later updates can use the in-app updater.\n\nUpdates retain saved settings, sign-ins and device approval. Includes mobile player controls, NETTV session selection and a TV-friendly activation screen."
 }

@@ -28,7 +28,7 @@ git push
 ## Publish an app update
 
 A Git push saves these files but does not create a GitHub Release. In this repository's
-Releases section, create a release tagged `v<versionName>` (currently `v2.0.54`), attach both
+Releases section, create a release tagged `v<versionName>` (currently `v2.0.56`), attach both
 `Pyakhah-release.apk` and `update.json`, and publish it as the latest stable release.
 
 The app checks:
@@ -41,3 +41,7 @@ updates through the app.
 
 Android 2.0.53 requires device approval. Open the app to get an activation code, then have the
 administrator approve it at https://pyakha.saroz.com.np/admin/. Older APKs do not enforce activation.
+
+Version 2.0.56 fixes APK certificate reading on older Android releases. If an earlier
+build reports a signature mismatch, install this APK directly once; subsequent updates
+can use the in-app updater. Keep the app installed to preserve settings and approval.
