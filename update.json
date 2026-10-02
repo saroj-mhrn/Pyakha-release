@@ -1,10 +1,10 @@
 {
   "packageName": "app.livetv.android",
-  "versionCode": 53,
-  "versionName": "2.0.52",
+  "versionCode": 54,
+  "versionName": "2.0.53",
   "minSdk": 24,
-  "size": 8933927,
-  "sha256": "56fab9fa2eb234cc77339e986b9e48d0d7fca31c8b322202323fdc3e9a8d7f0f",
-  "apkUrl": "https://github.com/saroj-mhrn/Pyakha-release/releases/download/v2.0.52/Pyakhah-release.apk",
-  "notes": "Fix NETTV session selection on phones and restore embedded-player touch controls on Samsung.\nAdd app update checks in Settings, verified APK downloads, and Android installer confirmation."
+  "size": 8948284,
+  "sha256": "d34e2b493c62c76643544c05dfdac6a5007990fe628b141f3321b091382312ab",
+  "apkUrl": "https://github.com/saroj-mhrn/Pyakha-release/releases/download/v2.0.53/Pyakhah-release.apk",
+  "notes": "Add device activation for Android phones and TVs. Each installation needs approval at https://pyakha.saroz.com.np/admin/ before playback.\nApproved devices can keep working for up to 24 hours if the approval service is unreachable. App updates preserve approval.\nKeep the mobile playback controls and NETTV session-selection fixes."
 }
