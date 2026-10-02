@@ -1,0 +1,6 @@
+# Keep this public repository limited to release artifacts and documentation.
+/*
+!/.gitignore
+!/README.md
+!/Pyakhah-release.apk
+!/update.json

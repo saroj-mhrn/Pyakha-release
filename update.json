@@ -1,0 +1,10 @@
+{
+  "packageName": "app.livetv.android",
+  "versionCode": 53,
+  "versionName": "2.0.52",
+  "minSdk": 24,
+  "size": 8933927,
+  "sha256": "56fab9fa2eb234cc77339e986b9e48d0d7fca31c8b322202323fdc3e9a8d7f0f",
+  "apkUrl": "https://github.com/saroj-mhrn/Pyakha-release/releases/download/v2.0.52/Pyakhah-release.apk",
+  "notes": "Fix NETTV session selection on phones and restore embedded-player touch controls on Samsung.\nAdd app update checks in Settings, verified APK downloads, and Android installer confirmation."
+}
