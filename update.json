@@ -1,10 +1,10 @@
 {
   "packageName": "app.livetv.android",
-  "versionCode": 58,
-  "versionName": "2.0.57",
+  "versionCode": 62,
+  "versionName": "2.0.61",
   "minSdk": 24,
-  "size": 8948584,
-  "sha256": "f9bf5cd4c7f5c5b63ad317358ea52a33857e312b50a0b82ee21872d643acf79f",
-  "apkUrl": "https://github.com/saroj-mhrn/Pyakha-release/releases/download/v2.0.57/Pyakhah-release.apk",
-  "notes": "Fixes the bottom navigation overlapping Android’s system navigation bar on phones such as the Vivo Y22. Navigation buttons remain visible and easy to tap.\n\nUpdate from Settings → App updates. Your settings and device approval are preserved."
+  "size": 9276913,
+  "sha256": "449f211f59bedf832bd93915069194503477b33c1be9fcfff70c85b53cd4a09a",
+  "notes": "YouTube music now prefers the original 160 kbps Opus stream when available, without re-encoding.\nFaster music downloads and playback startup using byte-range requests.\nMore reliable background downloads, retry handling, and clearer error messages.\nTVs without a folder picker can scan local MP3s after granting music/storage permission.\nExisting downloads keep their current audio format. Remove and download a song again to use the new Opus preference.",
+  "apkUrl": "https://github.com/saroj-mhrn/Pyakha-release/releases/download/v2.0.61/Pyakhah-release.apk"
 }
