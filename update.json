@@ -1,10 +1,10 @@
 {
   "packageName": "app.livetv.android",
-  "versionCode": 62,
-  "versionName": "2.0.61",
+  "versionCode": 68,
+  "versionName": "2.0.67",
   "minSdk": 24,
-  "size": 9276913,
-  "sha256": "449f211f59bedf832bd93915069194503477b33c1be9fcfff70c85b53cd4a09a",
-  "notes": "YouTube music now prefers the original 160 kbps Opus stream when available, without re-encoding.\nFaster music downloads and playback startup using byte-range requests.\nMore reliable background downloads, retry handling, and clearer error messages.\nTVs without a folder picker can scan local MP3s after granting music/storage permission.\nExisting downloads keep their current audio format. Remove and download a song again to use the new Opus preference.",
-  "apkUrl": "https://github.com/saroj-mhrn/Pyakha-release/releases/download/v2.0.61/Pyakhah-release.apk"
+  "size": 10329175,
+  "sha256": "e70db2778eb5b1915ef5c7d8838513d87b2b42cfd0d46d715cf4a3f9d5c23b38",
+  "notes": "Fixed intermittent movie seeking with Left/Right on Panasonic TV remotes. Hold either arrow to keep seeking.\nImproved playback focus when returning from the app toolbar.\nAdded fast-forward and rewind button support for the affected VidSrc player.",
+  "apkUrl": "https://github.com/saroj-mhrn/Pyakha-release/releases/download/v2.0.67/Pyakhah-release.apk"
 }
