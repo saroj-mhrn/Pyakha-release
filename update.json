@@ -1,10 +1,10 @@
 {
   "packageName": "app.livetv.android",
-  "versionCode": 70,
-  "versionName": "2.0.69",
+  "versionCode": 71,
+  "versionName": "2.0.70",
   "minSdk": 24,
-  "size": 10337601,
-  "sha256": "dc3ad568b17319fff41d199f1e280f1e0b8acbab569dfb64e4a9b4520d6c9b12",
-  "notes": "Swipe left or right over Live TV on touch devices to switch to the next or previous channel. Vertical brightness and volume gestures and guide swipes remain available.\n\nOn TV, press Back from a movie poster to jump to the filters. Press Down from the bottom filter row to return to the same movie and scroll position. Choosing a filter starts at the first result; Back from the filters returns to Live TV. Open dialogs and dropdowns close first.\n\nImproved Android TV Back handling to preserve the focused movie or filter. Tested on a Samsung Galaxy S9+ and a Panasonic TV.",
-  "apkUrl": "https://github.com/saroj-mhrn/Pyakha-release/releases/download/v2.0.69/Pyakhah-release.apk"
+  "size": 10340271,
+  "sha256": "567dcf82d8d809cb7d7be41dbb4fed7edcebdceb15248fa80b97787a49cf164b",
+  "notes": "Administrators can now choose TV, Movies, Music and Radio separately for each approved Pyakha device using checkboxes in the Device access dashboard.\n\nDisabled sections are hidden from navigation and settings, blocked from shortcuts and playback, and removed from Android TV recommendations. If all sections are disabled, the app shows an access message while keeping Settings and app updates available.\n\nSection access is verified with the device's signed approval and preserved offline until that approval expires. Changes apply when the app returns to the foreground or completes its next access check. Existing devices keep all four sections enabled by default.\n\nThis update is required for per-device section controls to take effect.",
+  "apkUrl": "https://github.com/saroj-mhrn/Pyakha-release/releases/download/v2.0.70/Pyakhah-release.apk"
 }
