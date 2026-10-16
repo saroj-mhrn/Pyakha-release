@@ -1,10 +1,10 @@
 {
   "packageName": "app.livetv.android",
-  "versionCode": 68,
-  "versionName": "2.0.67",
+  "versionCode": 70,
+  "versionName": "2.0.69",
   "minSdk": 24,
-  "size": 10329175,
-  "sha256": "e70db2778eb5b1915ef5c7d8838513d87b2b42cfd0d46d715cf4a3f9d5c23b38",
-  "notes": "Fixed intermittent movie seeking with Left/Right on Panasonic TV remotes. Hold either arrow to keep seeking.\nImproved playback focus when returning from the app toolbar.\nAdded fast-forward and rewind button support for the affected VidSrc player.",
-  "apkUrl": "https://github.com/saroj-mhrn/Pyakha-release/releases/download/v2.0.67/Pyakhah-release.apk"
+  "size": 10337601,
+  "sha256": "dc3ad568b17319fff41d199f1e280f1e0b8acbab569dfb64e4a9b4520d6c9b12",
+  "notes": "Swipe left or right over Live TV on touch devices to switch to the next or previous channel. Vertical brightness and volume gestures and guide swipes remain available.\n\nOn TV, press Back from a movie poster to jump to the filters. Press Down from the bottom filter row to return to the same movie and scroll position. Choosing a filter starts at the first result; Back from the filters returns to Live TV. Open dialogs and dropdowns close first.\n\nImproved Android TV Back handling to preserve the focused movie or filter. Tested on a Samsung Galaxy S9+ and a Panasonic TV.",
+  "apkUrl": "https://github.com/saroj-mhrn/Pyakha-release/releases/download/v2.0.69/Pyakhah-release.apk"
 }
