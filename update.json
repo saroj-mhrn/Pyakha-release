@@ -1,10 +1,10 @@
 {
   "packageName": "app.livetv.android",
-  "versionCode": 71,
-  "versionName": "2.0.70",
+  "versionCode": 73,
+  "versionName": "2.0.72",
   "minSdk": 24,
-  "size": 10340271,
-  "sha256": "567dcf82d8d809cb7d7be41dbb4fed7edcebdceb15248fa80b97787a49cf164b",
-  "notes": "Administrators can now choose TV, Movies, Music and Radio separately for each approved Pyakha device using checkboxes in the Device access dashboard.\n\nDisabled sections are hidden from navigation and settings, blocked from shortcuts and playback, and removed from Android TV recommendations. If all sections are disabled, the app shows an access message while keeping Settings and app updates available.\n\nSection access is verified with the device's signed approval and preserved offline until that approval expires. Changes apply when the app returns to the foreground or completes its next access check. Existing devices keep all four sections enabled by default.\n\nThis update is required for per-device section controls to take effect.",
-  "apkUrl": "https://github.com/saroj-mhrn/Pyakha-release/releases/download/v2.0.70/Pyakhah-release.apk"
+  "size": 10937148,
+  "sha256": "4337f99cf47edffa1f3111a19afa3df281d9eaa98b58ce373c4a4bebde1319e1",
+  "notes": "Music video playback and fullscreen controls\n\n- Video mode now plays the YouTube video with its own sound through one player, removing synchronization with a separate audio player.\n- Turning video off returns to audio-only at the current position, preserving pause state and the playlist.\n- Full-width video on phones and a wider inline player on TVs.\n- Landscape fullscreen with song title, artist, seek bar, play/pause and previous/next controls that show on touch or remote input and hide during playback.\n- Improved TV D-pad focus between the top panel, Video switch and fullscreen controls.\n- Fullscreen requests up to 1080p and reduces quality when needed.\n- Preserved background audio, notifications, shuffle and phone picture-in-picture behavior.\n\nTested on Samsung Galaxy S9+ and Panasonic Android TV, including one minute of continuous 1080p playback on each.",
+  "apkUrl": "https://github.com/saroj-mhrn/Pyakha-release/releases/download/v2.0.72/Pyakhah-release.apk"
 }
